@@ -220,18 +220,13 @@ nav {
 }
 
 .advantages .col_img {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: rgb(30, 172, 199);
     height: 116px;
     width: 116px;
-    background: url('../img/advantages/ellipse.png') no-repeat;
-    padding: 17px 17px 17px 17px;
-}
+    border-radius: 100%;
 
-.col_img_five {
-    display: block;
-    height: 116px;
-    width: 116px;
-    background: url('../img/advantages/ellipse.png') no-repeat;
-    padding-left: 30px;
-    padding-right: 25px;
 }
